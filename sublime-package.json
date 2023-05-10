@@ -1,0 +1,42 @@
+{
+  "contributions": {
+    "settings": [
+      {
+        "file_patterns": [
+          "/LSP-VHDL-ls.sublime-settings"
+        ],
+        "schema": {
+          "$id": "sublime://settings/LSP-VHDL-ls",
+          "allOf": [
+            {
+              "$ref": "sublime://settings/LSP-plugin-base"
+            },
+            {
+              "$ref": "sublime://settings/LSP-VHDL-ls#/definitions/PluginConfig"
+            }
+          ],
+        }
+      },
+      {
+        "file_patterns": [
+          "/*.sublime-project"
+        ],
+        "schema": {
+          "properties": {
+            "settings": {
+              "properties": {
+                "LSP": {
+                  "properties": {
+                    "VHDL-ls": {
+                      "$ref": "sublime://settings/LSP-VHDL-ls#/definitions/PluginConfig"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ]
+  }
+}

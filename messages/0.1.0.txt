@@ -1,0 +1,8 @@
+=> 0.1.0
+
+# First release!
+
+- Remember, you are using an alpha
+- Currently, the language server only works with files inside folders open in the sidebar
+- If you are working inside a sublime project and open a VHDL file not found in
+  one of the sidebar's folders, the language server will crash

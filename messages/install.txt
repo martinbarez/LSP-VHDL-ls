@@ -1,0 +1,9 @@
+                    Thanks for trying out the LSP-VHDL-ls!
+                    ======================================
+
+
+This package has been made possible by the people working in rust_hdl.
+Remember to install the LSP package and *VHDL* or *VHDL Mode*.
+
+Check out rust_hdl at: https://github.com/VHDL-LS/rust_hdl
+Check out this project at: https://github.com/martinbarez/LSP-VHDL-ls

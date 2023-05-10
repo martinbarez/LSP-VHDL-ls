@@ -1,0 +1,6 @@
+{
+	// the startup command -- what you would type in a terminal
+	"command": ["${storage_path}/LSP-VHDL-ls/bin/vhdl_ls"],
+	// the selector that selects which type of buffers this language server attaches to
+	"selector": "source.vhdl",
+}

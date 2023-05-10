@@ -1,0 +1,10 @@
+[
+    {
+        "caption": "Preferences: LSP-VHDL-ls Settings",
+        "command": "edit_settings",
+        "args": {
+            "base_file": "${packages}/LSP-VHDL-ls/LSP-VHDL-ls.sublime-settings",
+            "default": "// Settings in here override those in \"LSP-VHDL-ls/LSP-VHDL-ls.sublime-settings\"\n{\n\t$0\n}\n"
+        }
+    }
+]
