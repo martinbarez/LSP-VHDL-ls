@@ -14,7 +14,7 @@ SESSION_NAME = "VHDL-ls"
 #
 # After changing this tag, go through the server settings again to see if any
 # new server settings are added or old ones removed.
-TAG = "v0.64.0"
+TAG = "v0.78.2"
 URL = "https://github.com/VHDL-LS/rust_hdl/releases/download/{tag}/vhdl_ls-{arch}-{platform}.zip"
 FOLDER = "vhdl_ls-{arch}-{platform}"
 

@@ -1,0 +1,8 @@
+=> 0.78.2
+
+# Second release!
+
+- This is still an alpha (sorry)
+- If you are working inside a sublime project and open a VHDL file not found in
+  one of the sidebar's folders, the language server will crash
+- Upped the version number to match the underlying rust_hdl version
